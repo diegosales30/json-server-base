@@ -21,11 +21,11 @@ POST /signin
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
 
-### Rotas 
-Conter uma rota na qual todos os usuários poderão ter acesso a leitura
+### Rotas todos os usuários poderão ter acesso a leitura
+
 GET /posts
 
-### Rotas
-Conter uma rota na qual apenas os usuários logados poderão ter acesso a leitura;
-GET /books
+### Rotas - apenas os usuários logados poderão ter acesso a leitura;
+
+GET /books <br />
 GET /bio
